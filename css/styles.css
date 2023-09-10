@@ -636,10 +636,11 @@ img {
 
 .modal-window-close-btn-img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #2e2f42;
 }
 
-.modal-window-close-btn-img:hover,
-.modal-window-close-btn-img:focus {
+.modal-window-close-btn:hover .modal-window-close-btn-img,
+.modal-window-close-btn:focus .modal-window-close-btn-img {
     fill: #fff;
 }
 
@@ -647,14 +648,6 @@ img {
 .modal-window-close-btn:focus {
     background-color: #404bbf;
     border: none;
-}
-
-.modal-window-form {
-
-}
-
-.modal-window-close-btn-img {
-    fill: #2e2f42;
 }
 
 .modal-window-header {
@@ -754,7 +747,6 @@ img {
     align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: transparent;
-    /* border: none; */
 }
 
 .styled-checkbox-img {
@@ -764,6 +756,7 @@ img {
 .privacy-checkbox:checked+.modal-input-label>.styled-checkbox {
     background-color: #404bbf;
     border: none;
+    fill: #F4F4FD;
 }
 
 .privacy-checkbox:checked+.modal-input-label>.styled-checkbox>.styled-checkbox-img {

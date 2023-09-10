@@ -763,9 +763,9 @@ img {
     fill: #F4F4FD;
 }
 
-.privacy-checkbox:focus+.modal-input-label>.styled-checkbox {
+/* .privacy-checkbox:focus+.modal-input-label>.styled-checkbox {
     border: 1px solid #4d5ae5;
-}
+} */
 
 .privacy-policy-link {
     text-decoration: underline;
